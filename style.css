@@ -1,0 +1,594 @@
+body {
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin: 0;
+    position: absolute;
+    background-image: url(imgs/blue-watercolor3.png);
+    /*opacity: 0.6;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+font-family: 'Quicksand', sans-serif;
+
+
+}
+
+a {
+    color: rgb(105, 105, 105);
+
+    text-decoration: none;
+}
+
+#section1 {
+    top: 0%;
+
+
+}
+
+#about {
+    top: 0%;
+}
+
+/*#episodes {
+    height: 250%;
+    top: 200%;
+    background-repeat: repeat;
+
+
+}*/
+
+#team {
+    top: 100%;
+    height: 400%;
+
+}
+
+
+
+#bar {
+    padding-left: 2%;
+    width: 15%;
+    height: 100%;
+    top: 0%;
+    position: fixed;
+    background-color: rgba(245, 245, 245, 0.5);
+    color: rgb(105, 105, 105);
+    font-family: 'Major Mono Display', monospace;
+    font-size: 3vw;
+}
+
+
+.textbox {
+    z-index: 1;
+    width: 55%;
+    left: 25%;
+    position: absolute;
+    padding-top: 5%;
+}
+
+#aboutB {
+    font-size: 1.7vw;
+}
+
+
+
+#faces {
+    position: relative;
+    left: 22%;
+    /*z-index: 2;*/
+    width: 80%;
+    height: 100%;
+    padding: 2%;
+}
+
+.headshot {
+/*    background-color: rgba(245, 245, 245, 0.5);
+*/    width: 15vw;
+    height: 15vw;
+    color: white;
+    position: relative;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    top: 0%;
+    left: 0%;
+    margin-right: 4%;
+    margin-bottom: 10%;
+
+    background-color: rgb(176, 176, 176);
+    border: 1px grey solid;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+
+.name {
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 110%;
+    font-size: 2.5vw;
+    font-family: "'EB Garamond', serif";
+    color: rgb(105, 105, 105);
+
+}
+
+
+
+
+
+
+.description-invisible {
+    color: white;
+    background-size: cover;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    border-radius: 10%;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    opacity: 0;
+
+    font-size: 1vw;
+    font-family: ariel;
+    text-align: center;
+    vertical-align: top;
+    /*        margin:5%;
+*/
+
+}
+
+
+
+
+
+.description-apparent {
+    padding: 5%;
+    color: white;
+    font-size: 1.5vw;
+    background-image: url(./imgs/watercolor.png);
+    background-size: cover;
+    top: 0%;
+    left: 0%;
+    width: 90%;
+    height: 90%;
+    text-align: left;
+    transition: ease-in-out 1s;
+    animation-name: fade;
+    animation-duration: 15s;
+    background-color: rgb(176, 176, 176);
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1.0;
+    }
+
+
+    90% {
+        opacity: 1.0;
+    }
+
+
+    100% {
+        opacity: 0;
+    }
+
+
+
+}
+
+#headshot0 {
+    background-image: url(./imgs/augie1.jpg);
+
+}
+
+#headshot0:hover {
+    background-image: url(./imgs/augie2.jpg);
+
+}
+
+#headshot1 {
+    background-image: url(./imgs/blake1.jpg);
+
+
+}
+
+#headshot1:hover {
+    background-image: url(./imgs/blake2.jpg);
+
+}
+
+
+
+#headshot2 {
+    background-image: url(./imgs/gia1.jpg);
+
+}
+
+#headshot2:hover {
+    background-image: url(./imgs/gia1.jpg);
+
+
+}
+
+
+#headshot3 {
+    background-image: url(./imgs/hailey1.jpg);
+
+}
+
+#headshot3:hover {
+    background-image: url(./imgs/hailey2.jpg);
+
+}
+
+#headshot4 {
+    background-image: url(./imgs/jacob1.jpg);
+
+}
+
+#headshot4:hover {
+    background-image: url(./imgs/jacob2.jpg);
+
+    transition: 1.5s ease-in-out;
+}
+
+#headshot5 {
+    background-image: url(./imgs/.jpg);
+}
+
+#headshot5:hover {
+    background-image: url(./imgs/.png);
+}
+
+
+#headshot6 {
+    background-image: url(./imgs/pablo2.jpg);
+}
+
+#headshot6:hover {
+    background-image: url(./imgs/pablo2.jpg);
+}
+
+#headshot7 {
+    background-image: url(./imgs/phil1.jpg);
+
+}
+
+#headshot7:hover {
+    background-image: url(./imgs/phil1.jpg);
+
+}
+
+#headshot8 {
+    background-image: url(./imgs/savanna1.jpg);
+
+}
+
+#headshot8:hover {
+    background-image: url(./imgs/savanna1.jpg);
+
+}
+
+#headshot9 {
+    background-image: url(./imgs/tanner1.jpg);
+
+}
+
+#headshot9:hover {
+    background-image: url(./imgs/tanner2.jpg);
+
+}
+
+
+#headshot10 {
+    background-image: url(./imgs/tessa1.jpg);
+
+}
+
+
+#headshot10:hover {
+    background-image: url(./imgs/tessa2.jpg);
+    animation-transition: linear;
+
+}
+
+#headshot11 {
+    background-image: url(./imgs/will1.jpg);
+
+}
+
+
+#headshot11:hover {
+    background-image: url(./imgs/will2.jpg);
+
+}
+
+
+
+#description11 {
+    background-image: url(./imgs/willow1.jpg);
+
+}
+
+#headshot12 {
+    background-image: url(./imgs/.jpg);
+
+}
+
+#headshot12:hover {
+
+    background-image: url(./imgs/wolf.jpg);
+
+
+}
+
+#headshot13 {
+    background-image: url(./imgs/jireh1.jpg);
+
+}
+
+#headshot13:hover {
+
+    background-image: url(./imgs/jireh2.jpg);
+
+
+}
+
+#headshot14 {
+    background-image: url(./imgs/taniah1.jpg);
+
+}
+
+#headshot14:hover {
+
+    background-image: url(./imgs/taniah1.jpg);
+
+
+}
+
+#headshot15 {
+    background-image: url(./imgs/shreena1.jpg);
+
+}
+
+#headshot15:hover {
+
+    background-image: url(./imgs/shreena2.jpg);
+
+
+}
+
+#headshot16 {
+    background-image: url(./imgs/bella1.png);
+
+}
+
+#headshot16:hover {
+
+    background-image: url(./imgs/bella2.jpg);
+
+
+}
+
+
+#description16 {
+
+    font-family: 'Crimson Text', serif;
+
+
+}
+
+
+
+
+#headshot17 {
+    background-image: url(./imgs/zach1.jpg);
+
+}
+
+#headshot17:hover {
+
+    background-image: url(./imgs/zach2.jpg);
+
+
+}
+
+#headshot18 {
+    background-image: url(./imgs/james1.jpg);
+
+}
+
+#headshot18:hover {
+
+    background-image: url(./imgs/james2.jpg);
+
+
+}
+
+#headshot19 {
+    background-image: url(./imgs/sasha1.jpg);
+
+}
+
+#headshot19:hover {
+
+    background-image: url(./imgs/sasha2.jpg);
+
+
+
+}
+
+
+#headshot20 {
+    background-image: url(./imgs/christian1.jpg);
+
+}
+
+
+#description20 {
+
+    font-family: 'Amatic SC', cursive;
+
+}
+
+#headshot20:hover {
+
+    background-image: url(./imgs/christian2.jpg);
+
+}
+
+
+
+
+#headshot21 {
+
+    background-image: url(./imgs/jackson1.jpg);
+
+}
+
+#headshot21:hover {
+
+    background-image: url(./imgs/jackson2.jpg);
+
+
+}
+
+
+#headshot22 {
+
+    background-image: url(./imgs/hayden1.jpg);
+    background-position: 0% 101%;
+
+
+}
+
+#headshot22:hover {
+
+    background-image: url(./imgs/hayden2.jpg);
+
+
+}
+
+#headshot23 {
+
+    background-image: url(./imgs/hannah1.jpg);
+    background-position: 0% 20%;
+
+
+}
+
+
+#headshot23:hover {
+
+    background-image: url(./imgs/hannah2.jpg);
+
+
+}
+
+#headshot24 {
+    background-position: 0% 3%;
+
+    background-image: url(./imgs/chloe1.jpg);
+
+}
+
+#headshot24:hover {
+    background-position: 0% 3%;
+
+    background-image: url(./imgs/chloe2.jpg);
+
+}
+
+
+#headshot25 {
+
+    background-image: url(./imgs/aly1.png);
+
+
+}
+
+#headshot26 {
+
+    background-image: url(./imgs/edgar1.jpg);
+
+
+}
+
+#headshot26:hover {
+
+    background-image: url(./imgs/edgar2.jpg);
+
+
+}
+
+#headshot27 {
+
+    background-image: url(./imgs/emmalyhn1.jpg);
+
+
+}
+
+#headshot27:hover {
+
+    background-image: url(./imgs/emmalyhn2.jpg);
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-device-width: 667px) {
+
+    #section1 {
+        height: 50%;
+        width: 100%;
+    }
+
+    #about {
+        top: 50%;
+    }
+
+    #episodes {
+        top: 100%;
+        height: 150%;
+    }
+
+    #team {
+        top: 250%;
+        height: 100%;
+    }
+
+
+
+
+}
+
+
+
+
+
+
