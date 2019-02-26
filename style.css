@@ -12,7 +12,7 @@ section {
     /*opacity: 0.6;*/
     background-size: cover;
     background-repeat: no-repeat;
-font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 
 
 }
@@ -86,8 +86,9 @@ a {
 }
 
 .headshot {
-/*    background-color: rgba(245, 245, 245, 0.5);
-*/    width: 15vw;
+    /*    background-color: rgba(245, 245, 245, 0.5);
+*/
+    width: 15vw;
     height: 15vw;
     color: white;
     position: relative;
@@ -555,6 +556,38 @@ a {
 }
 
 
+#headshot28 {
+
+    background-image: url(./imgs/janea1.jpg);
+
+
+}
+
+.threePhotos {
+
+    background-image: url(./imgs/janea2.jpg);
+    animation-name: ThirdPhoto;
+    animation-duration: 2s;
+    transition: ease-in-out;
+
+
+}
+
+@keyframes ThirdPhoto {
+
+    from {
+        background-image: url(./imgs/janea2.jpg);
+    }
+
+    to {
+        background-image: url(./imgs/janea3.jpg);
+    }
+
+
+}
+
+
+
 
 
 
@@ -586,9 +619,3 @@ a {
 
 
 }
-
-
-
-
-
-
